@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reality Lab</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/history.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header-site">
+
+        <div class="header-inter container">
+
+            <div class="logo">
+                <a href="/index.html">
+                    <b>Reality</b>&nbsp;Lab</a>
+            </div>
+
+            <nav class="main-nav">
+                <a data-key="btn_main" href="/index.html">Головна</a>
+                <a data-key="btn_history" href="/history.html">Історія</a>
+                <div class="dropdown">
+                    <a class="dropbtn" data-key="btn_tech">
+                        Технології
+                        <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="vrtech.html" data-key="nav_vr">Virtual Reality</a>
+                        <a href="mrtech.html" data-key="nav_mr">Mixed Reality</a>
+                        <a href="artech.html" data-key="nav_ar">Augmented Reality</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header-actions">
+                <a href="/vrtest.html"><button class="button button-vr" data-key="btn_vr_test">VR Test</button></a>
+                <button class="button button-lang" id="lang-toggle" aria-label="language">
+                    <img src="/image/language.svg" alt="Change Language" class="button-lang-img">
+                </button>
+                
+                <button class="hamburger" id="hamburger-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mobile-menu" id="mobile-menu">
+            <a data-key="btn_main" href="/index.html">Головна</a>
+            <a data-key="btn_history" href="/history.html">Історія</a>
+            <span data-key="nav_tech_mobile" class="menu-label">Технології:</span>
+            
+            <a href="vrtech.html" class="sub-link" data-key="nav_vr">Virtual Reality</a>
+            <a href="mrtech.html" class="sub-link" data-key="nav_mr">Mixed Reality</a>
+            <a href="artech.html" class="sub-link" data-key="nav_ar">Augmented Reality</a>
+        </div>
+    </header>
+<!-- MAIN ////////////////////////////////////////////////////////// -->
+    <main>
+    <div class="connector-wrapper">
+        <img src="/image/startcurve.svg" alt="" class="connector-svg">
+    </div>
+        <div class="card-wrapper">
+            <div class="text-section">
+                
+                <div class="year-title">1838</div>
+
+                <div class="history-content">
+                    <h3 class="history-subtitle" data-key="hist_1838_title">Стереоскоп</h3>
+                    <p class="history-text" id="slide-text" data-key="hist_1838_text">
+                        Чарльз Вітстон створює стереоскоп. Це був перший прилад, який довів, що мозок обробляє два двовимірних зображення (для кожного ока) в одне тривимірне.
+                    </p>
+                </div>
+            </div>
+
+            <div class="image-section">
+                <div class="image-overlay"></div>
+                <div class="slider-container" id="slider">
+                    <div class="slide active"><img src="/image/History/1.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector-wrapper">
+            <div class="connector-inner">
+                <img src="/image/nextcurve.svg" alt="" class="connector-svg">
+            </div>
+        </div>
+
+        <div class="card-wrapper">
+            <div class="text-section">
+                
+                <div class="year-title">1957</div>
+
+                <div class="history-content">
+                    <h3 class="history-subtitle" data-key="hist_1957_title">Sensorama</h3>
+                    <p class="history-text" id="slide-text" data-key="hist_1957_text">
+                        Мортон Хейліг створює Sensorama. Це був громіздкий механічний апарат, який транслював 3D-фільм, розпилював запахи, вібрував кріслом і дув вітром. Це був перший досвід "мультисенсорної" імерсивності.
+                    </p>
+                </div>
+            </div>
+
+            <div class="image-section">
+                <div class="image-overlay"></div>
+                <div class="slider-container" id="slider">
+                    <div class="slide active"><img src="/image/History/2.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector-wrapper">
+            <div class="connector-inner">
+                <img src="/image/startcurve.svg" alt="" class="connector-svg">
+            </div>
+        </div>
+
+        <div class="card-wrapper">
+            <div class="text-section">
+                
+                <div class="year-title">1968</div>
+
+                <div class="history-content">
+                    <h3 class="history-subtitle" data-key="hist_1968_title">The Sword of Damocles</h3>
+                    <p class="history-text" id="slide-text" data-key="hist_1968_text">
+                        Айван Сазерленд створює "Дамоклів меч". Це перша в історії AR/VR гарнітура, підключена до комп'ютера. Вона кріпилася до стелі, а графіка складалася з простих дротяних кубів.
+                    </p>
+                </div>
+            </div>
+
+            <div class="image-section">
+                <div class="image-overlay"></div>
+                <div class="slider-container" id="slider">
+                    <div class="slide active"><img src="/image/History/3.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector-wrapper">
+            <div class="connector-inner">
+                <img src="/image/nextcurve.svg" alt="" class="connector-svg">
+            </div>
+        </div>
+
+        <div class="card-wrapper">
+            <div class="text-section">
+                
+                <div class="year-title">1995</div>
+
+                <div class="history-content">
+                    <h3 class="history-subtitle" data-key="hist_1995_title">Virtual Boy</h3>
+                    <p class="history-text" id="slide-text" data-key="hist_1995_text">
+                        Nintendo випускає Virtual Boy. Це був комерційний провал: консоль була незручною, відображала лише червоно-чорні кольори та викликала головокружіння.
+                    </p>
+                </div>
+            </div>
+
+            <div class="image-section">
+                <div class="image-overlay"></div>
+                <div class="slider-container" id="slider">
+                    <div class="slide active"><img src="/image/History/4.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector-wrapper">
+            <div class="connector-inner">
+                 <img src="/image/startcurve.svg" alt="" class="connector-svg">
+            </div>
+        </div>
+
+        <div class="card-wrapper">
+            <div class="text-section">
+                
+                <div class="year-title">2000</div>
+
+                <div class="history-content">
+                    <h3 class="history-subtitle" data-key="hist_2000_title">ARToolKit</h3>
+                    <p class="history-text" id="slide-text" data-key="hist_2000_text">
+                        Випущено бібліотеку з відкритим кодом, яка дозволила розробникам створювати AR-додатки, накладати 3D-об'єкти на маркери через камеру.
+                    </p>
+                </div>
+            </div>
+
+            <div class="image-section">
+                <div class="image-overlay"></div>
+                <div class="slider-container" id="slider">
+                    <div class="slide active"><img src="/image/History/5.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector-wrapper">
+            <div class="connector-inner">
+                <img src="/image/nextcurve.svg" alt="" class="connector-svg">
+            </div>
+        </div>
+
+        <div class="card-wrapper">
+            <div class="text-section">
+                
+                <div class="year-title">2012</div>
+
+                <div class="history-content">
+                    <h3 class="history-subtitle" data-key="hist_2012_title">Oculus Rift</h3>
+                    <p class="history-text" id="slide-text" data-key="hist_2012_text">
+                        Палмер Лакі запускає кампанію на Kickstarter для Oculus Rift. Він обіцяє якісний VR за доступною ціною. У 2014 році Facebook купує Oculus за $2 млрд.
+                    </p>
+                </div>
+            </div>
+
+            <div class="image-section">
+                <div class="image-overlay"></div>
+                <div class="slider-container" id="slider">
+                    <div class="slide active"><img src="/image/History/6.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector-wrapper">
+            <div class="connector-inner">
+                <img src="/image/startcurve.svg" alt="" class="connector-svg">
+            </div>
+        </div>
+
+        <div class="card-wrapper">
+            <div class="text-section">
+                
+                <div class="year-title">2015</div>
+
+                <div class="history-content">
+                    <h3 class="history-subtitle" data-key="hist_2015_title">HTC Vive</h3>
+                    <p class="history-text" id="slide-text" data-key="hist_2015_text">
+                        HTC та Valve анонсують HTC Vive, який дозволяє не тільки сидіти, а й ходити кімнатою.
+                    </p>
+                </div>
+            </div>
+
+            <div class="image-section">
+                <div class="image-overlay"></div>
+                <div class="slider-container" id="slider">
+                    <div class="slide active"><img src="/image/History/7.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector-wrapper">
+            <div class="connector-inner">
+                <img src="/image/nextcurve.svg" alt="" class="connector-svg">
+            </div>
+        </div>
+
+        <div class="card-wrapper">
+            <div class="text-section">
+                
+                <div class="year-title">2016</div>
+
+                <div class="history-content">
+                    <h3 class="history-subtitle" data-key="hist_2016_title">Microsoft HoloLens</h3>
+                    <p class="history-text" id="slide-text" data-key="hist_2016_text">
+                        Microsoft випускає перші автономні окуляріи змішаної реальності (MR) для бізнесу.
+                    </p>
+                </div>
+            </div>
+
+            <div class="image-section">
+                <div class="image-overlay"></div>
+                <div class="slider-container" id="slider">
+                    <div class="slide active"><img src="/image/History/8.webp" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector-wrapper">
+            <div class="connector-inner">
+                <img src="/image/nextcurve.svg" alt="" class="connector-svg">
+            </div>
+        </div>
+
+        
+        <div class="card-wrapper">
+            <div class="text-section">
+                
+                <div class="year-title">2019</div>
+
+                <div class="history-content">
+                    <h3 class="history-subtitle" data-key="hist_2019_title">Oculus Quest</h3>
+                    <p class="history-text" id="slide-text" data-key="hist_2019_text">
+                        Meta випускає Oculus Quest. Це переломний момент — перший повноцінний ігровий VR-шолом, якому не потрібен комп'ютер чи дроти.
+                    </p>
+                </div>
+            </div>
+
+            <div class="image-section">
+                <div class="image-overlay"></div>
+                <div class="slider-container" id="slider">
+                    <div class="slide active"><img src="/image/History/9.webp" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector-wrapper">
+            <div class="connector-inner">
+                <img src="/image/nextcurve.svg" alt="" class="connector-svg">
+            </div>
+        </div>
+
+        <div class="card-wrapper">
+            <div class="text-section">
+                
+                <div class="year-title">2020</div>
+
+                <div class="history-content">
+                    <h3 class="history-subtitle" data-key="/image/History/10.">Valve Index</h3>
+                    <p class="history-text" id="slide-text" data-key="hist_2020_text">
+                        Cтав вершиною еволюції дротового VR, запропонувавши безкомпромісну якість зображенн та звуку. Контролери "Knuckles" вперше дозволили відстежувати кожен палець окремо й повністю розтискати долоню, забезпечуючи найвищий рівень фізичної взаємодії з віртуальним світом.
+                    </p>
+                </div>
+            </div>
+
+            <div class="image-section">
+                <div class="image-overlay"></div>
+                <div class="slider-container" id="slider">
+                    <div class="slide active"><img src="/image/History/10.png" alt="VR Image 4"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector-wrapper">
+            <div class="connector-inner">
+                <img src="/image/nextcurve.svg" alt="" class="connector-svg">
+            </div>
+        </div>
+
+        <div class="card-wrapper">
+            <div class="text-section">
+                
+                <div class="year-title">2024</div>
+
+                <div class="history-content">
+                    <h3 class="history-subtitle" data-key="hist_2024_title">Apple Vision Pro</h3>
+                    <p class="history-text" id="slide-text" data-key="hist_2024_text">
+                        Apple випускає Vision Pro, називаючи це не VR/AR, а "просторовим комп'ютером". Керування відбувається лише очима та руками, без контролерів.
+                    </p>
+                </div>
+            </div>
+
+            <div class="image-section">
+                <div class="image-overlay"></div>
+                <div class="slider-container" id="slider">
+                    <div class="slide active"><img src="/image/History/11.png" alt="VR Image 4"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector-wrapper">
+            <div class="connector-inner">
+                <img src="/image/nextcurve.svg" alt="" class="connector-svg">
+            </div>
+        </div>
+
+    </main>
+
+<!-- FOOTER ////////////////////////////////////////////////////////// -->
+    <footer class="site-footer colorbg">
+        <div class="container footer-inner">
+            <b>
+                <p>"Розробка інформаційного вебсайту про технології віртуальної та доповненої реальності"</p>
+                <p>Студент групи 21i, Ілля Нікитченко<br>2025 рік</p>
+            </b>
+        </div>
+    </footer>
+    <script src="/js/mobile.js"></script>
+    <script src="js/lang.js"></script>
+</body>
+</html>

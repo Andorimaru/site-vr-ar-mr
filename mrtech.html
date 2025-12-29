@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reality Lab</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/tech.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- HEADER ////////////////////////////////////////////////////////// -->
+<header class="header-site">
+
+        <div class="header-inter container">
+
+            <div class="logo">
+                <a href="/index.html">
+                    <b>Reality</b>&nbsp;Lab</a>
+            </div>
+
+            <nav class="main-nav">
+                <a data-key="btn_main" href="/index.html">Головна</a>
+                <a data-key="btn_history" href="/history.html">Історія</a>
+                <div class="dropdown">
+                    <a class="dropbtn" data-key="btn_tech">
+                        Технології
+                        <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="vrtech.html">Virtual Reality</a>
+                        <a href="mrtech.html">Mixed Reality</a>
+                        <a href="artech.html">Augmented Reality</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header-actions">
+                <a href="/vrtest.html"><button class="button button-vr">VR Test</button></a>
+                <button class="button button-lang" id="lang-toggle" aria-label="language">
+                    <img src="/image/language.svg" alt="Change Language" class="button-lang-img">
+                </button>
+                
+                <button class="hamburger" id="hamburger-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mobile-menu" id="mobile-menu">
+            <a data-key="btn_main" href="/index.html">Головна</a>
+            <a data-key="btn_history" href="/history.html">Історія</a>
+            <span data-key="btn_tech" class="menu-label">Технології:</span>
+            
+            <a href="vrtech.html" class="sub-link">Virtual Reality</a>
+            <a href="mrtech.html" class="sub-link">Mixed Reality</a>
+            <a href="artech.html" class="sub-link">Augmented Reality</a>
+        </div>
+    </header>
+    <!-- MAIN ////////////////////////////////////////////////////////// -->
+    <main>
+
+        <section class="vr_hero" style="--hero-bg: url('/image/MRbanner.webp');">
+            <h1>ЗМІШАНА РЕАЛЬНІСТЬ</h1>
+            <p>Це технологія, що поєднує реальний та віртуальний світи, дозволяючи фізичним і цифровим об'єктам співіснувати та взаємодіяти в реальному часі.</p>
+            <a href="#tech"><div class="hero-down"><img src="/image/arrow.svg" alt="Bring Down"></div></a>
+        </section>
+
+    <div class="equipment">
+
+        <div id="tech" class="section-title">
+            <h2>ОБЛАДНАННЯ</h2>
+        </div>
+
+        <div class="tech-section quest3">
+            <div class="tech-image">
+                <img src="image/metaquest3.png" alt="Meta Quest 3">
+            </div>
+            <div class="tech-content">
+                <h2>Meta Quest 3</h2>
+                <p>Найкращий універсальний шолом для змішаної реальності від Meta. Завдяки системі повноколірного наскрізного бачення Passthrough, він дозволяє інтегрувати віртуальні об'єкти прямо у ваш фізичний простір, зберігаючи повну свободу рухів без дротів.</p>
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>Mixed Reality</h4>
+                            <span>Повноколірний Passthrough</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>Snapdragon XR2 Gen 2</h4>
+                            <span>Найпотужніший XR процесор</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>Depth Sensor</h4>
+                            <span>Автоматичне сканування кімнати</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>Hand Tracking</h4>
+                            <span>Керування без контролерів</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tech-section applevision">
+            <div class="tech-image">
+                <img src="image/apple-vision-pro.webp" alt="Apple Vision Pro">
+            </div>
+            <div class="tech-content">
+                <h2>Apple Vision Pro</h2>
+                <p>Перший просторовий комп'ютер від Apple, що безшовно поєднує цифровий контент із фізичним світом. Завдяки революційній системі керування поглядом та жестами, пристрій перетворює будь-яке приміщення на нескінченне полотно для роботи, розваг та спілкування.</p>
+                
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>Micro-OLED 4K</h4>
+                            <span>23 мільйони пікселів для кожного ока</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>Dual-Chip Design</h4>
+                            <span>Процесори Apple M2 та R1</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>Optic ID</h4>
+                            <span>Біометрична безпека за райдужкою ока</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>EyeSight Tech</h4>
+                            <span>Візуалізація очей користувача на зовнішньому екрані</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tech-section pico4ultra">
+            <div class="tech-image">
+                <img src="image/pico4-ultra.png" alt="PICO 4 Ultra">
+            </div>
+            <div class="tech-content">
+                <h2>PICO 4 Ultra</h2>
+                <p>Потужна версія популярного шолома Pico 4, спеціально розроблена для багатозадачності та змішаної реальності. Завдяки панорамному наскрізному баченню та оновленій операційній системі, він дозволяє відкривати десятки віртуальних вікон прямо у вашій кімнаті, створюючи ідеальне робоче середовище.</p>
+                
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>32MP Passthrough</h4>
+                            <span>Дві камери високої чіткості</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>Spatial Video</h4>
+                            <span>Підримка формату Apple Vision</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>Екосистема</h4>
+                            <span>Можливість підключення трекерів Pico</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>Snapdragon XR2 Gen 2</h4>
+                            <span>Найпотужніший XR процесор</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </main>
+
+<!-- FOOTER ////////////////////////////////////////////////////////// -->
+    <footer class="site-footer colorbg">
+        <div class="container footer-inner">
+            <b>
+                <p>"Розробка інформаційного вебсайту про технології віртуальної та доповненої реальності"</p>
+                <p>Студент групи 21i, Ілля Нікитченко<br>2025 рік</p>
+            </b>
+        </div>
+    </footer>
+    <script src="/js/mobile.js"></script>
+    <script src="js/lang.js"></script>
+</body>
+</html>

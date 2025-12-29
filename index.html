@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reality Lab</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- HEADER ////////////////////////////////////////////////////////// -->
+<header class="header-site">
+
+        <div class="header-inter container">
+
+            <div class="logo">
+                <a href="/index.html">
+                    <b>Reality</b>&nbsp;Lab</a>
+            </div>
+
+            <nav class="main-nav">
+                <a data-key="btn_main" href="/index.html">Головна</a>
+                <a data-key="btn_history" href="/history.html">Історія</a>
+                <div class="dropdown">
+                    <a class="dropbtn" data-key="btn_tech">
+                        Технології
+                        <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="vrtech.html">Virtual Reality</a>
+                        <a href="mrtech.html">Mixed Reality</a>
+                        <a href="artech.html">Augmented Reality</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header-actions">
+                <a href="/vrtest.html"><button class="button button-vr">VR Test</button></a>
+                <button class="button button-lang" id="lang-toggle" aria-label="language">
+                    <img src="/image/language.svg" alt="Change Language" class="button-lang-img">
+                </button>
+                
+                <button class="hamburger" id="hamburger-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mobile-menu" id="mobile-menu">
+            <a data-key="btn_main" href="/index.html">Головна</a>
+            <a data-key="btn_history" href="/history.html">Історія</a>
+            <span data-key="btn_tech" class="menu-label">Технології:</span>
+            
+            <a href="vrtech.html" class="sub-link">Virtual Reality</a>
+            <a href="mrtech.html" class="sub-link">Mixed Reality</a>
+            <a href="artech.html" class="sub-link">Augmented Reality</a>
+        </div>
+    </header>
+
+    <!-- MAIN ////////////////////////////////////////////////////////// -->
+    <main>
+        <!-- BANNER //////////////////////////////////////////////////// -->
+        <section class="banner">
+
+            <div class="banner-bg"><video class="hero-video" autoplay muted loop playsinline>
+            <source src="/video/main.mp4" type="video/mp4">
+        </video></div>
+
+            <div class="banner-inter container">
+                <h1 data-key="banner_title">ДОТОРКНИСЬ ДО ВІРТУАЛЬНОЇ РЕАЛЬНОСТІ</h1>
+                <p class="lead" data-key="banner_text" >Дізнайся все про технології Extended Reality: від історії створення до сучасних можливостей.</p>
+
+                <a href="#info"><div class="hero-down"><img src="/image/arrow.svg" alt="Bring Down"></div></a>
+            </div>
+
+        </section>
+        <!-- INFO ++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="info">
+    <h2 data-key="info_title" class="title">ЩО ТАКЕ XR</h2>
+
+    <section class="infotext container" id="info">
+        <h3 data-key="text1">Розширена реальність (XR) — це загальний термін для технологій,
+            що поєднують реальний світ із цифровими елементами, додаючи комп'ютерну інформацію 
+            до нашого сприйняття.</h3>
+
+        <div class="xr-content-list">
+            <ul>
+                <li>
+                    Ця технологія перетворює навколишній простір на тривимірне середовище, де цифровий контент більше не обмежений рамками монітора, а існує поряд із фізичними об'єктами.
+                </li>
+                <li>
+                    XR забезпечує ідеальні умови для освіти та професійної підготовки, оскільки дозволяє відпрацьовувати складні, аварійні або небезпечні сценарії у повністю безпечному середовищі без ризику травмування чи пошкодження дорогого обладнання.
+                </li>
+                <li>
+                    Взаємодія з інформацією стає інтуїтивною та природною, адже система дозволяє керувати процесами за допомогою погляду, жестів рук, голосу або рухів тіла, замість класичних маніпуляторів.
+                </li>
+                <li>
+                    Завдяки впливу на зір, слух та інші органи чуття досягається ефект повної присутності, коли користувач відчуває себе безпосереднім учасником подій у цифровому просторі.
+                </li>
+            </ul>
+        </div>
+    </section>
+</div>
+        <!-- CARDS ++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+        <div class="cardspart">
+
+            <h2 data-key="card_title" class="title">НА ЩО ПОДІЛЯЮТЬ EXTENDED REALITY?</h2>
+
+            <section class="cards container">
+                <div class="card-grid">
+                    <!-- Virtual Reality -->
+                    <article class="card">
+                        <div class="card-media" style="background-image: url('image/VR.png')"></div>
+                            <h3>Virtual Reality</h3>
+                            <p data-key="vr_card">Повне занурення у цифровий світ, що замінює реальне оточення за допомогою шолома.</p>
+                            <a href="vrtech.html" class="tech-link">
+                            <span data-key="link">Перейти</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg> </a>
+                    </article>
+
+                    <!-- Augmented Reality -->
+                    <article class="card">
+                        <div class="card-media" style="background-image: url('/image/AR.png')"></div>
+                            <h3>Augmented Reality</h3>
+                            <p data-key="ar_card">Накладання цифрової інформації (зображень, тексту) поверх реального світу.</p>
+                            <a href="artech.html" class="tech-link">
+                            <span data-key="link">Перейти</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg> </a>
+                    </article>
+                    
+                    <!-- Mixed Reality -->
+                    <article class="card">
+                        <div class="card-media" style="background-image: url('/image/MR.png')"></div>
+                            <h3>Mixed Reality</h3>
+                            <p data-key="mr_card">Поєднання реального та віртуального світів, де цифрові об'єкти можуть взаємодіяти з фізичними предметами.</p>
+                            <a href="mrtech.html" class="tech-link">
+                            <span data-key="link">Перейти</span>
+    
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19"    y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+    </svg> 
+</a>
+                    </article>
+                </div>
+            </section>
+        </div>
+
+        <!-- HISTORY ++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+        <div class="history">
+            <section class="cardhistory container">
+        <div class="card-wrapper">
+            <div class="dots-window">
+                <div class="dots-track" id="dots-track">
+                </div>
+            </div>
+
+            <div class="text-section">
+                <p class="text-white text-xl md:text-2xl leading-relaxed" id="slide-text">
+                    Завантаження історії...
+                </p>
+                
+                <a href="history.html" class="history-link">
+                    <span data-key="read_history">Читати історію XR</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+            </div>
+
+            <div class="image-section">
+                <div class="image-overlay"></div>
+                
+                <div class="slider-container" id="slider">
+                    <div class="slide"><img src="/image/1.png" alt="VR Image 1"></div>
+                    <div class="slide"><img src="/image/2.png" alt="VR Image 2"></div>
+                    <div class="slide"><img src="/image/3.png" alt="VR Image 3"></div>
+                    <div class="slide"><img src="/image/4.png" alt="VR Image 4"></div>
+                    <div class="slide"><img src="/image/5.png" alt="VR Image 5"></div>
+                    <div class="slide"><img src="/image/6.png" alt="VR Image 6"></div>
+                    <div class="slide"><img src="/image/7.png" alt="VR Image 7"></div>
+                </div>
+
+                <div class="slider-nav">
+                    <button class="nav-btn" onclick="prevSlide()" aria-label="Попереднє">
+                        <img src="/image/arrow_back.svg" alt="Back" width="24" height="24" class="btn-back">
+                    </button>
+                    <button class="nav-btn" onclick="nextSlide()" aria-label="Наступне">
+                        <img src="/image/arrow_forward.svg" alt="Forward" width="24" height="24">
+                    </button>
+                </div>
+                </section>
+            </div>
+
+            <script src="/js/galleryua.js"></script>
+            <script src="/js/mobile.js"></script>
+        </div>
+        </div>
+    </main>
+
+    <!-- FOOTER ////////////////////////////////////////////////////////// -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <b>
+                <p>"Розробка інформаційного вебсайту про технології віртуальної та доповненої реальності"</p>
+                <p>Студент групи 21i, Ілля Нікитченко<br>2025 рік</p>
+            </b>
+        </div>
+    </footer>
+    <script src="js/lang.js"></script>
+</body>
+</html>

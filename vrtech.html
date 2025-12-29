@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reality Lab</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/tech.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- HEADER ////////////////////////////////////////////////////////// -->
+<header class="header-site">
+
+        <div class="header-inter container">
+
+            <div class="logo">
+                <a href="/index.html">
+                    <b>Reality</b>&nbsp;Lab</a>
+            </div>
+
+            <nav class="main-nav">
+                <a data-key="btn_main" href="/index.html">Головна</a>
+                <a data-key="btn_history" href="/history.html">Історія</a>
+                <div class="dropdown">
+                    <a class="dropbtn" data-key="btn_tech">
+                        Технології
+                        <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="vrtech.html">Virtual Reality</a>
+                        <a href="mrtech.html">Mixed Reality</a>
+                        <a href="artech.html">Augmented Reality</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header-actions">
+                <a href="/vrtest.html"><button class="button button-vr">VR Test</button></a>
+                <button class="button button-lang" id="lang-toggle" aria-label="language">
+                    <img src="/image/language.svg" alt="Change Language" class="button-lang-img">
+                </button>
+                
+                <button class="hamburger" id="hamburger-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mobile-menu" id="mobile-menu">
+            <a data-key="btn_main" href="/index.html">Головна</a>
+            <a data-key="btn_history" href="/history.html">Історія</a>
+            <span data-key="btn_tech" class="menu-label">Технології:</span>
+            
+            <a href="vrtech.html" class="sub-link">Virtual Reality</a>
+            <a href="mrtech.html" class="sub-link">Mixed Reality</a>
+            <a href="artech.html" class="sub-link">Augmented Reality</a>
+        </div>
+    </header>
+    <!-- MAIN ////////////////////////////////////////////////////////// -->
+    <main>
+
+        <section class="vr_hero" style="--hero-bg: url('/image/VRbanner.png');">
+            <h1>ВІРТУАЛЬНА РЕАЛЬНІСТЬ</h1>
+            <p>Комп'ютерно згенероване 3D-середовище, що імітує реальність і дозволяє користувачеві повністю в нього зануритися, взаємодіючи з об'єктами через спеціальні пристрої (шолом, контролери), створюючи відчуття присутності, що використовується в іграх, навчанні, медицині, науці для симуляцій, тренувань та розваг.</p>
+            <a href="#tech"><div class="hero-down"><img src="/image/arrow.svg" alt="Bring Down"></div></a>
+        </section>
+
+    <div class="equipment">
+
+        <div id="tech" class="section-title">
+            <h2>ОБЛАДНАННЯ</h2>
+        </div>
+
+        <div class="tech-section quest3">
+            <div class="tech-image">
+                <img src="image/htcvivepro2.webp" alt="Meta Quest 3">
+            </div>
+            <div class="tech-content">
+                <h2>HTC Vive Pro 2</h2>
+                <p>Флагманський PC-VR шолом від компанії HTC з неймовірною роздільною здатністю 5K. Забезпечує безкомпромісну чіткість зображення та надширокий кут огляду 120° для повного занурення у віртуальні світи.</p>
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <i class="fa-solid fa-infinity spec-icon"></i>
+                        <div class="spec-text">
+                            <h4>5K Resolution</h4>
+                            <span>2448 x 2448 на око</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <i class="fa-solid fa-gamepad spec-icon"></i>
+                        <div class="spec-text">
+                            <h4>Wireless Ready</h4>
+                            <span>Підтримка бездротового адаптера</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <i class="fa-solid fa-microchip spec-icon"></i>
+                        <div class="spec-text">
+                            <h4>120° FOV</h4>
+                            <span>Широкий кут огляду</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <i class="fa-solid fa-battery-half spec-icon"></i>
+                        <div class="spec-text">
+                            <h4>Laser Tech</h4>
+                            <span>Використовується IR док-станці</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tech-section valveindex">
+            <div class="tech-image">
+                <img src="image/valveindex.png" alt="Valve Index">
+            </div>
+            <div class="tech-content">
+                <h2>Valve Index</h2>
+                <p>Еталонний PC-VR шолом від Valve. 
+                    Valve Index пропонує найкращу в індустрії якість відстеження рухів, повне відстеження рухів долоні та унікальну аудіосистему, з гарною якістю зображення.</p>
+                
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <i class="fa-regular fa-eye spec-icon"></i>
+                        <div class="spec-text">
+                            <h4>Finger Tracking</h4>
+                            <span>Контролери бачать кожен палець</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <i class="fa-solid fa-layer-group spec-icon"></i>
+                        <div class="spec-text">
+                            <h4>Off-ear Audio</h4>
+                            <span>Преміальний просторовий звук</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <i class="fa-solid fa-hand spec-icon"></i>
+                        <div class="spec-text">
+                            <h4>144 Hz Refresh</h4>
+                            <span>Найвища плавність зображення</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <i class="fa-solid fa-masks-theater spec-icon"></i>
+                        <div class="spec-text">
+                            <h4>Екосистема</h4>
+                            <span>Працює через екосистему Valve та інших компаній</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tech-section beyond2">
+            <div class="tech-image">
+                <img src="image/beyond2.webp" alt="Beyond Bigscreen 2">
+            </div>
+            <div class="tech-content">
+                <h2>Bigscreen Beyond</h2>
+                <p>Найкомпактніший VR-шолом у світі, створений за індивідуальними замірами обличчя. Завдяки вазі лише 127 грамів та Micro-OLED екранам, він забезпечує неперевершений комфорт та якість зображення для перегляду кіно та тривалих ігрових сесій. (не має базових станцій та контролерів)</p>
+                
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <i class="fa-solid fa-glasses spec-icon"></i>
+                        <div class="spec-text">
+                            <h4>Micro-OLED</h4>
+                            <span>Неймовірна контрасність та справжній чорний</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <i class="fa-solid fa-tv spec-icon"></i>
+                        <div class="spec-text">
+                            <h4>127 Grams</h4>
+                            <span>Найлегший з усіх VR-окулярів</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <i class="fa-solid fa-mobile-screen spec-icon"></i>
+                        <div class="spec-text">
+                            <h4>Відстеження очей</h4>
+                            <span>Передає положення очей</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <i class="fa-solid fa-sun spec-icon"></i>
+                        <div class="spec-text">
+                            <h4>Custom Fit</h4>
+                            <span>Робиться індивідуально для кожного</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </main>
+
+<!-- FOOTER ////////////////////////////////////////////////////////// -->
+    <footer class="site-footer colorbg">
+        <div class="container footer-inner">
+            <b>
+                <p>"Розробка інформаційного вебсайту про технології віртуальної та доповненої реальності"</p>
+                <p>Студент групи 21i, Ілля Нікитченко<br>2025 рік</p>
+            </b>
+        </div>
+    </footer>
+    <script src="/js/mobile.js"></script>
+    <script src="js/lang.js"></script>
+</body>
+</html>

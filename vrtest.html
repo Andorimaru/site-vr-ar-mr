@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reality Lab</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/history.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- HEADER ////////////////////////////////////////////////////////// -->
+<header class="header-site">
+
+        <div class="header-inter container">
+
+            <div class="logo">
+                <a href="/index.html">
+                    <b>Reality</b>&nbsp;Lab</a>
+            </div>
+
+            <nav class="main-nav">
+                <a data-key="btn_main" href="/index.html">Головна</a>
+                <a data-key="btn_history" href="/history.html">Історія</a>
+                <div class="dropdown">
+                    <a class="dropbtn" data-key="btn_tech">
+                        Технології
+                        <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="vrtech.html">Virtual Reality</a>
+                        <a href="mrtech.html">Mixed Reality</a>
+                        <a href="artech.html">AR</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header-actions">
+                <a href="/vrtest.html"><button class="button button-vr">VR Test</button></a>
+                <button class="button button-lang" id="lang-toggle" aria-label="language">
+                    <img src="/image/language.svg" alt="Change Language" class="button-lang-img">
+                </button>
+                
+                <button class="hamburger" id="hamburger-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mobile-menu" id="mobile-menu">
+            <a data-key="btn_main" href="/index.html">Головна</a>
+            <a data-key="btn_history" href="/history.html">Історія</a>
+            <span data-key="btn_tech" class="menu-label">Технології:</span>
+            
+            <a href="vrtech.html" class="sub-link">Virtual Reality</a>
+            <a href="mrtech.html" class="sub-link">Mixed Reality</a>
+            <a href="artech.html" class="sub-link">Augmented Reality</a>
+        </div>
+    </header>
+    <!-- MAIN ////////////////////////////////////////////////////////// -->
+    <main>
+        <iframe 
+            src="https://msub2.github.io/hello-webxr/" 
+            height="600" 
+            width="1020" 
+            title="WebXR Demo"
+            allow="xr-spatial-tracking; fullscreen; accelerometer; gyroscope"
+            ></iframe>
+    </main>
+
+<!-- FOOTER ////////////////////////////////////////////////////////// -->
+    <footer class="site-footer colorbg">
+        <div class="container footer-inner">
+            <b>
+                <p>"Розробка інформаційного вебсайту про технології віртуальної та доповненої реальності"</p>
+                <p>Студент групи 21i, Ілля Нікитченко<br>2025 рік</p>
+            </b>
+        </div>
+    </footer>
+    <script src="/js/mobile.js"></script>
+    <script src="js/lang.js"></script>
+    <script src="/js/vrcheck.js"></script>
+</body>
+</html>

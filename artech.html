@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reality Lab</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/tech.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- HEADER ////////////////////////////////////////////////////////// -->
+<header class="header-site">
+
+        <div class="header-inter container">
+
+            <div class="logo">
+                <a href="/index.html">
+                    <b>Reality</b>&nbsp;Lab</a>
+            </div>
+
+            <nav class="main-nav">
+                <a data-key="btn_main" href="/index.html">Головна</a>
+                <a data-key="btn_history" href="/history.html">Історія</a>
+                <div class="dropdown">
+                    <a class="dropbtn" data-key="btn_tech">
+                        Технології
+                        <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="vrtech.html">Virtual Reality</a>
+                        <a href="mrtech.html">Mixed Reality</a>
+                        <a href="artech.html">Augmented Reality</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header-actions">
+                <a href="/vrtest.html"><button class="button button-vr">VR Test</button></a>
+                <button class="button button-lang" id="lang-toggle" aria-label="language">
+                    <img src="/image/language.svg" alt="Change Language" class="button-lang-img">
+                </button>
+                
+                <button class="hamburger" id="hamburger-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mobile-menu" id="mobile-menu">
+            <a data-key="btn_main" href="/index.html">Головна</a>
+            <a data-key="btn_history" href="/history.html">Історія</a>
+            <span data-key="btn_tech" class="menu-label">Технології:</span>
+            
+            <a href="vrtech.html" class="sub-link">Virtual Reality</a>
+            <a href="mrtech.html" class="sub-link">Mixed Reality</a>
+            <a href="artech.html" class="sub-link">Augmented Reality</a>
+        </div>
+    </header>
+    <!-- MAIN ////////////////////////////////////////////////////////// -->
+    <main>
+
+        <section class="vr_hero" style="--hero-bg: url('/image/ARbanner.jpg');">
+            <h1>ДОПОВНЕНА РЕАЛЬНІСТЬ</h1>
+            <p>Технологія, що накладає цифрові елементи (3D-моделі, звук, текст, відео) на реальний світ через камеру смартфона, планшета чи спеціальні окуляри, створюючи інтерактивний досвід, де віртуальне "живе" поруч із реальним.</p>
+            <a href="#tech"><div class="hero-down"><img src="/image/arrow.svg" alt="Bring Down"></div></a>
+        </section>
+
+    <div class="equipment">
+        <div id="tech" class="section-title">
+            <h2>ОБЛАДНАННЯ</h2>
+        </div>
+
+        <div class="tech-section hololens">
+            <div class="tech-image">
+                <img src="image/hololens2.webp" alt="Microsoft HoloLens 2">
+            </div>
+            <div class="tech-content">
+                <h2>Microsoft HoloLens 2</h2>
+                <p>Еталонний голографічний комп'ютер для бізнесу та промисловості. Завдяки прозорим лінзам та інтелектуальним датчикам, він дозволяє працювати з віртуальними 3D-моделями в реальному часі, залишаючи руки повністю вільними для виконання складних технічних завдань.</p>
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>Holographic Lens</h4>
+                            <span>Прозорі хвилевідні лінзи 2K</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>Hand Tracking</h4>
+                            <span>Підтримка бездротового адаптера</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>Eye Tracking</h4>
+                            <span>Автоматичне фокусування зображення</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>Windows Mixed Reality</h4>
+                            <span>Повноцінна ОС для роботи</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tech-section magicleap2">
+            <div class="tech-image">
+                <img src="image/magicleap2.png" alt="Magic Leap 2">
+            </div>
+            <div class="tech-content">
+                <h2>Magic Leap 2</h2>
+                <p>Найпотужніша AR-платформа для складних обчислень. Magic Leap 2 вирізняється найбільшим кутом огляду серед усіх оптичних AR-пристроїв та унікальною технологією динамічного затемнення, яка робить цифрові об'єкти насиченими навіть при яскравому сонці.</p>
+                
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>Dynamic Dimming</h4>
+                            <span>Затемнення реального світу до 99.7%</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>70° FOV</h4>
+                            <span>Найширший кут огляду в AR</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>AMD Zen 2 CPU</h4>
+                            <span>Потужний зовнішній обчислювальний блок</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>6DoF Precision</h4>
+                            <span>Субміліметрова точність у просторі</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tech-section xrealair2ultra">
+            <div class="tech-image">
+                <img src="image/air2ultra.webp" alt="XREAL Air 2 Ultra">
+            </div>
+            <div class="tech-content">
+                <h2>XREAL Air 2 Ultra</h2>
+                <p>Майбутнє повсякденної доповненої реальності у форматі легких окулярів. Вагою всього 80 грамів, вони здатні створювати величезний віртуальний дисплей перед вашими очима, відстежувати рухи рук та перетворювати ваш смартфон на портативну AR-станцію.</p>
+                
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>Sony Micro-OLED</h4>
+                            <span>Яскравість до 500 ніт та 120 Гц</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>Titanium Frame</h4>
+                            <span>Легкий та міцний титановий корпус</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>Spatial Computing</h4>
+                            <span>Відстеження голови та рук (6DoF)</span>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-text">
+                            <h4>Cinema Scale</h4>
+                            <span>Ефект 154-дюймового екрана</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </main>
+
+<!-- FOOTER ////////////////////////////////////////////////////////// -->
+    <footer class="site-footer colorbg">
+        <div class="container footer-inner">
+            <b>
+                <p>"Розробка інформаційного вебсайту про технології віртуальної та доповненої реальності"</p>
+                <p>Студент групи 21i, Ілля Нікитченко<br>2025 рік</p>
+            </b>
+        </div>
+    </footer>
+    <script src="/js/mobile.js"></script>
+    <script src="js/lang.js"></script>
+</body>
+</html>
